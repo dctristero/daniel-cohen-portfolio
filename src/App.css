@@ -1,3 +1,16 @@
+/* 
+* {
+   background-color: #e4ccf7;
+} */
+
+.dark{}
+
+.light{}
+
+.navbtn {
+   color: primary.300
+}
+
 .App {
   text-align: center;
 }
