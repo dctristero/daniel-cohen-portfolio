@@ -2,7 +2,6 @@ import React from "react";
 import { chakra, Box, Flex, Icon, Stack } from "@chakra-ui/react";
 import BigProj from "./card-proj-lg";
 import SmallProj from "./card-proj-sm";
-import { portfolioCards } from "../assets/data/data";
 
 const Grid = () => {
   const Feature = (props) => {
@@ -47,15 +46,15 @@ const Grid = () => {
   };
   return (
     <Flex
-      bg="#edf3f8"
+      bg={["primary.100"]}
       _dark={{ bg: "#3e3e3e" }}
-      p={20}
+      p={0}
       w="auto"
       justifyContent="center"
       alignItems="center"
     >
-      <Box py={12} bg="white" _dark={{ bg: "gray.800" }} rounded="xl">
-        <Box maxW="7xl" mx="auto" px={{ base: 4, lg: 8 }}>
+      <Box py={12} bg={["primary.100"]} _dark={{ bg: "gray.800" }} rounded="xl">
+        <Box maxW="9xl" mx="auto" px={{ base: 4, lg: 8 }}>
           <Box textAlign={{ lg: "center" }}>
             <BigProj/>
           </Box>

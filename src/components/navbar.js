@@ -50,9 +50,9 @@ const Navbar = () => {
               mr={1}
               display={{ base: "none", md: "inline-flex" }}
             >
-              <Button color={["primary.300"]} className="navbtn" variant="ghost"><Link to="/">Home</Link></Button>
+              <Button color={["primary.300"]} className="navbtn" variant="ghost"><Link to="/">About</Link></Button>
               <Button color={["primary.300"]} className="navbtn" variant="ghost"><Link to="/portfolio">Portfolio</Link></Button>
-              <Button color={["primary.300"]} className="navbtn" variant="ghost"><Link to="/about">About</Link></Button>
+              <Button color={["primary.300"]} className="navbtn" variant="ghost"><Link to="/resume">Resume</Link></Button>
               <Button color={["primary.300"]} className="navbtn" variant="ghost"><Link to="/contact">Contact</Link></Button>
             </HStack>
             <Box display={{ base: "inline-flex", md: "none" }}>
