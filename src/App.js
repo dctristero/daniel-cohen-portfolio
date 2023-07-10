@@ -1,7 +1,7 @@
-import Portfolio from './pages/portfolio/portfolio';
+import Portfolio from './pages/portfolio';
 import Contact from "./pages/contact";
 import About from "./pages/about";
-import Home from "./pages/home";
+import Resume from "./pages/resume";
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from "./components/navbar.js";
@@ -14,10 +14,10 @@ function App() {
    {/* <Site> */}
    <Navbar/>
    <Routes>
-   <Route path="/" element={<Home/>}/>
+   <Route path="/" element={<About/>}/>
    <Route path="/portfolio" element={<Portfolio/>}/>
    <Route path="/contact" element={<Contact/>}/>
-   <Route path="/about" element={<About/>}/>
+   <Route path="/resume" element={<Resume/>}/>
    </Routes>
    <Footer/>
    {/* </Site> */}
