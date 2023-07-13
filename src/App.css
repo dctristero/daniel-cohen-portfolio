@@ -4,7 +4,13 @@
 } */
 
 .pageBG {
-   background-color: "#d2fded"
+   background-color: #d2fded
+}
+
+
+
+.fake {
+   background-color: #c59ae2
 }
 
 .dark{}

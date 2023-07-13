@@ -10,6 +10,8 @@ const Footer = () => {
       p={0}
       alignItems="center"
       justifyContent="center"
+      position="absolute"
+      bottom={0}
     >
       <Flex
         w="full"

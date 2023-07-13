@@ -17,7 +17,8 @@ const BigProj = () => {
         rounded="lg"
         bg="white"
         _dark={{ bg: "gray.800" }}
-        maxW="2xl"
+
+        maxW="4xl"
       >
          <Link href="https://matthewmontiel.github.io/daja-limavi/">
             <Image
