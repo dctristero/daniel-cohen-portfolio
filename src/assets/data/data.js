@@ -3,9 +3,14 @@
 import dj from "../images/DJ-Limavi-screenshot.png"
 import ots from "../images/On-The-Shelf-screenshot.png"
 import placeholder from "../images/tumblr.png"
+import dc from "../images/DANNY.jpg"
 
 export const bigProjCard = {
    image: dj
+}
+
+export const aboutPic = {
+   image: dc
 }
 
 export const portfolioCards = [
@@ -40,5 +45,28 @@ export const portfolioCards = [
       image: placeholder,
       URL: "http://www.google.com",
       alt: "a screenshot of Feet: The Blog",
+   }
+]
+
+export const proficiencyCards = [
+   {
+      id: 1,
+      title: "Languages",
+      body: "HTML5, CSS3, JavaScript ES6+, SQL",
+   },
+   {
+      id: 2,
+      title: "Applications",
+      body: "Git, GitHub, MongoDB, MySQL, Heroku",
+   },
+   {
+      id: 3,
+      title: "Tools",
+      body: " Express, React, Node, Bootstrap, Bulma, GraphQL, Mongoose, Jest",
+   },
+   {
+      id: 4,
+      title: "Other",
+      body: "professional teaching experience, professional writing experience",
    }
 ]

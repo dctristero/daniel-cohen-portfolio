@@ -1,12 +1,10 @@
 import React from 'react'
 import Grid from "../components/grid"
+import { chakra } from '@chakra-ui/react'
 
 export default function portfolio() {
   return (
-    <div class="pageBG">
-      <h1 class="pageBG">
-         Portfolio
-      </h1>
+    <div>
       <Grid/>
     </div>
   )
