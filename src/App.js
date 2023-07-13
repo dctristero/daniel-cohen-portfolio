@@ -14,10 +14,10 @@ function App() {
    {/* <Site> */}
    <Navbar/>
    <Routes>
-   <Route path="/" element={<About/>}/>
-   <Route path="/portfolio" element={<Portfolio/>}/>
-   <Route path="/contact" element={<Contact/>}/>
-   <Route path="/resume" element={<Resume/>}/>
+   <Route path="/daniel-cohen-portfolio" element={<About/>}/>
+   <Route path="/daniel-cohen-portfolio/portfolio" element={<Portfolio/>}/>
+   <Route path="/daniel-cohen-portfolio/contact" element={<Contact/>}/>
+   <Route path="/daniel-cohen-portfolio/resume" element={<Resume/>}/>
    </Routes>
    {/* </Site> */}
    </BrowserRouter>
