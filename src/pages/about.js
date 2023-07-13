@@ -142,7 +142,7 @@ export default function About(){
               fontSize="3xl"
               mt={0}
             >
-              Languages: HTML5, CSS3, JavaScript ES6+, SQL
+               DANNY DANNY DANNY
             </chakra.p>
             <chakra.p
               display="block"
@@ -151,7 +151,7 @@ export default function About(){
               fontSize="3xl"
               mt={10}
             >
-              Applications: Git, GitHub, MongoDB, MySQL, Heroku
+              DANNY DANNY
             </chakra.p>
             <chakra.p
               display="block"
@@ -160,8 +160,7 @@ export default function About(){
               fontSize="3xl"
               mt={10}
             >
-              Tools: Express, React, Node, Bootstrap, Bulma, GraphQL, Mongoose,
-              Jest
+              DANNY DANNY DANNY DANNY
             </chakra.p>
             <chakra.p
               display="block"
@@ -170,7 +169,7 @@ export default function About(){
               fontSize="3xl"
               mt={10}
             >
-              Other: Professional writing and teaching experience
+              DANNY
             </chakra.p>
           </Box>
           </Box>
