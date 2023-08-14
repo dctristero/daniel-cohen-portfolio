@@ -10,15 +10,15 @@ import Navbar from "./components/navbar.js";
 
 function App() {
   return (
-   <BrowserRouter>
-   <Navbar/>
-   <Routes>
-   <Route path="/daniel-cohen-portfolio/" element={<About/>}/>
-   <Route path="/daniel-cohen-portfolio/portfolio" element={<Portfolio/>}/>
-   <Route path="/daniel-cohen-portfolio/contact" element={<Contact/>}/>
-   <Route path="/daniel-cohen-portfolio/resume" element={<Resume/>}/>
-   </Routes>
-   </BrowserRouter>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/daniel-cohen-portfolio/" element={<About />} />
+        <Route path="/daniel-cohen-portfolio/portfolio" element={<Portfolio />} />
+        <Route path="/daniel-cohen-portfolio/contact" element={<Contact />} />
+        <Route path="/daniel-cohen-portfolio/resume" element={<Resume />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

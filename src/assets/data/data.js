@@ -29,7 +29,7 @@ export const portfolioCards = [
       image: placeholder,
       URL: "http://www.google.com",
       alt: "a screenshot of Daja 3",
-   },
+   }, 
    {
       id: 3,
       title: "Avatar Generator",
