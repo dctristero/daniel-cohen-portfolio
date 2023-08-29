@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/daniel-cohen-portfolio/static/css/main.b9e7a4d0.css",
-    "main.js": "/daniel-cohen-portfolio/static/js/main.9d74163b.js",
+    "main.js": "/daniel-cohen-portfolio/static/js/main.cfc9464e.js",
     "static/media/On-The-Shelf-screenshot.png": "/daniel-cohen-portfolio/static/media/On-The-Shelf-screenshot.5cfba74401513a7233fc.png",
     "static/media/DJ-Limavi-screenshot.png": "/daniel-cohen-portfolio/static/media/DJ-Limavi-screenshot.09899f30b1b69dad43bb.png",
     "static/media/tumblr.png": "/daniel-cohen-portfolio/static/media/tumblr.acf9d115c33939340877.png",
     "static/media/DANNY.jpg": "/daniel-cohen-portfolio/static/media/DANNY.70588fecbd971014c0e3.jpg",
-    "static/media/Daniel-Cohen-Resume.pdf": "/daniel-cohen-portfolio/static/media/Daniel-Cohen-Resume.f7104fa83b673d952c1b.pdf",
+    "static/media/Daniel-Cohen-Resume.pdf": "/daniel-cohen-portfolio/static/media/Daniel-Cohen-Resume.23f0945c61c08556e57c.pdf",
     "index.html": "/daniel-cohen-portfolio/index.html",
     "main.b9e7a4d0.css.map": "/daniel-cohen-portfolio/static/css/main.b9e7a4d0.css.map",
-    "main.9d74163b.js.map": "/daniel-cohen-portfolio/static/js/main.9d74163b.js.map"
+    "main.cfc9464e.js.map": "/daniel-cohen-portfolio/static/js/main.cfc9464e.js.map"
   },
   "entrypoints": [
     "static/css/main.b9e7a4d0.css",
-    "static/js/main.9d74163b.js"
+    "static/js/main.cfc9464e.js"
   ]
 }
