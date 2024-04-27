@@ -1,8 +1,10 @@
 import React from "react";
 
-import { Box, Button, chakra, Flex, SimpleGrid, Image, Icon } from "@chakra-ui/react";
+import { Box, Button, chakra, Flex, SimpleGrid, GridItem, Image, Icon } from "@chakra-ui/react";
 import { aboutPic } from "../assets/data/data.js"
 import Footer from "../components/footer"
+
+// var navheight = {{ base: "50px", sm: "60px", xl: "75px" }};
 
 
 export default function About(){
@@ -52,39 +54,41 @@ export default function About(){
       bg={["primary.100"]}
       _dark={{ bg: "#3e3e3e" }}
       p={7}
+      minHeight={{ base: "calc(100vh - 50px)", sm: "calc(100vh - 60px)", xl: "calc(100vh - 75px)", }}
       w="full"
       justifyContent="center"
       alignItems="center"
-      //pos="absolute"
+      // pos="absolute"
     >
       <Box
         w="full"
         h="full"
         bg={["primary.100"]}
         _dark={{ bg: "gray.800" }}
-        px={8}
+        px={0}
         py={0}
         mx="auto"
       >
          <Box
-          textAlign={{ lg: "center" }}
           bg={["primary.200"]}
           roundedBottom="lg"
           roundedTop="lg"
-          pt={0}
+          pt={{ base: 2, md: 0 }}
           pb={2}
           mt={2}
           mb={8}
-          maxW="lg"
+          w={{ base: "70%", sm: "45%", xl: "30%" }}
           mx="auto"
-          px={{ base: 4, lg: 8 }}
+          px={{ base: 2, lg: 0 }}
         >
           <chakra.h1
+            textAlign="center"
             display="block"
-            color={["primary.400"]}
+            color={["primary.300"]}
             _dark={{ color: "white" }}
             fontWeight="bold"
-            fontSize="6xl"
+            fontSize={{ base: "3xl", md: "6xl" }}
+            // fontSize="6xl"
             mt={0}
           >
             About Me
@@ -94,26 +98,31 @@ export default function About(){
         {/* look at chakra ui grid examples to make better */}
         
         <SimpleGrid
-          alignItems="center"
-          columns={{ base: 1, md: 2 }}
+          // alignItems="center"
+          columns={{ sm: 1, md: 4 }}
           flexDirection="column-reverse"
-          mb={24}
-          spacingY={{ base: 10, md: 32 }}
-          spacingX={{ base: 10, md: 24 }}
+          m={{ sm: "0", md: "0" }}
+          spacingY={{ base: 0, md: 0 }}
+          spacingX={{ base: 0, md: 0 }}
+          alignItems="flex-start"
+          width={{ sm: "100%", md: "100%" }}
+          pb={7}
         >
+          <GridItem colSpan={{ sm: 1, md: 1 }} p={2}>
           <Box id="aboutPic"
-            w="60%"
-            h="100%"
+            width={{base: "60%", md:"95%" }}
+            h="full"
             px={3}
             py={3}
             bg={["primary.200"]}
             _dark={{ bg: "gray.700" }}
             roundedTop="lg"
             roundedBottom="lg"
+            mx="auto"
           >
             <Image
-            h="full"
-            w="full"
+            // h={{ sm: "30vh", md: "full" }}
+            // w="full"
             fit="scale-down"
             src={aboutPic.image}
             alt="picture of Daniel Cohen"
@@ -121,17 +130,20 @@ export default function About(){
             roundedBottom="lg"
          />
           </Box>
-          <Box order={{ base: "initial", md: 2 }}>
+          </GridItem>
+          {/* <Box order={{ base: "initial", md: 2 }}> */}
+          <GridItem colSpan={{ sm: 1, md: 3 }} p={2}>
           <Box
-            textAlign={{ lg: "center" }}
+            textAlign="left"
             bg={["primary.200"]}
             roundedBottom="lg"
             roundedTop="lg"
             pt={4}
             pb={6}
-            mt={8}
+            mt={0}
             mb={8}
-            maxW="m"
+            // w="100%"
+            // maxW="m"
             mx="auto"
             px={{ base: 4, lg: 8 }}
           >
@@ -139,7 +151,7 @@ export default function About(){
               display="block"
               color={["primary.300"]}
               _dark={{ color: "white" }}
-              fontSize="3xl"
+              fontSize="xl"
               mt={0}
             >
                I am a motivated, hard-working Full Stack Web Developer with a penchant for creative problem solving. My proficiencies include React, CSS, HTML, Javascript, Express, MongoDb, and MySQL. At the UT Coding Bootcamp, my close-knit team developed tools for users to discover new media, catalogue their personal collections, and connect with strangers who share niche interests.
@@ -148,8 +160,8 @@ export default function About(){
               display="block"
               color={["primary.300"]}
               _dark={{ color: "white" }}
-              fontSize="3xl"
-              mt={10}
+              fontSize="xl"
+              mt={6}
             >
               The bootcamp isn't the only experience I carry with me into the development world. My background in music theory gave me the skills to comfortably navigate and build the complex, interconnected logic of the back end. My experience in numerous opera productions taught me to put myself in the head of an audience member (or user) and understand what they see, which has informed my clear and artistic approach to front-end development. And my experiences as a teacher and a freelance writer have made me a strong communicator, someone collaborators can depend on for information and guidance.
             </chakra.p>
@@ -157,13 +169,15 @@ export default function About(){
               display="block"
               color={["primary.300"]}
               _dark={{ color: "white" }}
-              fontSize="3xl"
-              mt={10}
+              fontSize="xl"
+              mt={6}
             >
               I am eager to find a team that can utilize my skills, and to embark on an exciting new chapter in my professional life.
             </chakra.p>
           </Box>
-          </Box>
+          </GridItem>
+          
+          {/* </Box> */}
          
         </SimpleGrid>
       </Box>

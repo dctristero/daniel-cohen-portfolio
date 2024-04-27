@@ -25,12 +25,19 @@ const Navbar = () => {
       <chakra.header
         bg={bg}
         color={["primary.300"]}
+        h={{ base: "50px", sm: "60px", xl: "75px" }}
         w="full"
         px={{ base: 2, sm: 4 }}
-        py={4}
-        shadow="md"
+        py={0}
+        display="flex"
+        // shadow="md"
+        alignItems="center"
       >
-        <Flex alignItems="center" justifyContent="space-between" mx="auto">
+        <Flex 
+        justifyContent="space-between"
+        alignItems="center"
+        w="full"
+        h="full">
           <Flex>
             <chakra.a
               href="/"
