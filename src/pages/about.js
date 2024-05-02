@@ -74,12 +74,14 @@ export default function About(){
           roundedBottom="lg"
           roundedTop="lg"
           pt={{ base: 2, md: 0 }}
-          pb={2}
+          pb={{ base: 2, md: 1 }}
           mt={2}
-          mb={8}
+          mb={14}
           w={{ base: "70%", sm: "45%", xl: "30%" }}
           mx="auto"
           px={{ base: 2, lg: 0 }}
+          justifyContent="center"
+          alignItems="center"
         >
           <chakra.h1
             textAlign="center"
@@ -87,7 +89,7 @@ export default function About(){
             color={["primary.300"]}
             _dark={{ color: "white" }}
             fontWeight="bold"
-            fontSize={{ base: "3xl", md: "6xl" }}
+            fontSize={{ base: "3xl", md: "5xl" }}
             // fontSize="6xl"
             mt={0}
           >
