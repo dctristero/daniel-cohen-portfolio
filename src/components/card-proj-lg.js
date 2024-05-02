@@ -7,7 +7,8 @@ const BigProj = () => {
     <Flex
       bg={["primary.100"]}
       _dark={{ bg: "#3e3e3e" }}
-      p={50}
+       px={{ base: 0, md: 50}}
+       pb={{ base: 6, md: 50}}
       w="full"
       alignItems="center"
       justifyContent="center"
@@ -34,7 +35,7 @@ const BigProj = () => {
         <Box 
         bg={["primary.200"]}
         roundedBottom="lg"
-        p={6}>
+        p={{ base: 4, md: 6}}>
           <Box>
             <Link
               display="block"
