@@ -45,7 +45,7 @@ const BigProj = () => {
               fontSize="2xl"
               href="https://matthewmontiel.github.io/daja-limavi/"
               mt={0}
-              _hover={{ color: "gray.600", textDecor: "underline" }}
+              _hover={{ color: "primary.400", textDecor: "underline" }}
             >
               DJ Limavi
             </Link>
