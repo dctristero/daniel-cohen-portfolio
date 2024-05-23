@@ -165,7 +165,12 @@ export default function About(){
               fontSize="xl"
               mt={6}
             >
-              The bootcamp isn't the only experience I carry with me into the development world. My background in music theory gave me the skills to comfortably navigate and build the complex, interconnected logic of the back end. My experience in numerous opera productions taught me to put myself in the head of an audience member (or user) and understand what they see, which has informed my clear and artistic approach to front-end development. And my experiences as a teacher and a freelance writer have made me a strong communicator, someone collaborators can depend on for information and guidance.
+              The bootcamp isn't the only experience I carry with me into the development world. 
+              My background in music theory gave me the skills to comfortably navigate and build the complex, 
+              interconnected logic of the back end. My experience in numerous staged opera productions taught me about
+              visual communication, and has informed my clear and artistic approach to front-end development. 
+              And my experiences as a teacher and a freelance writer have made me a strong communicator, 
+              someone collaborators can depend on for information and guidance.
             </chakra.p>
             <chakra.p
               display="block"
