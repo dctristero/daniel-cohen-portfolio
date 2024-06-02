@@ -1,4 +1,5 @@
 import { extendTheme } from "@chakra-ui/react";
+import '@fontsource-variable/arimo';
 
 const colors = {
   primary: {
@@ -14,6 +15,11 @@ const colors = {
   },
 };
 
-const customTheme = extendTheme({ colors });
+const fonts = {
+  body: `'Arimo Variable', sans-serif`,
+  // body: `'Noto Serif TC', serif`,
+};
+
+const customTheme = extendTheme({ colors, fonts });
 
 export default customTheme;
