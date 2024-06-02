@@ -75,8 +75,8 @@ export default function About(){
           roundedTop="lg"
           pt={{ base: 2, md: 0 }}
           pb={{ base: 2, md: 1 }}
-          mt={2}
-          mb={14}
+          mt="2vw"
+          mb="4vw"
           w={{ base: "70%", sm: "45%", xl: "30%" }}
           mx="auto"
           px={{ base: 2, lg: 0 }}
@@ -89,7 +89,7 @@ export default function About(){
             color={["primary.300"]}
             _dark={{ color: "white" }}
             fontWeight="bold"
-            fontSize={{ base: "3xl", md: "5xl" }}
+            fontSize={{ base: "4xl", md: "5xl" }}
             // fontSize="6xl"
             mt={0}
           >
@@ -168,7 +168,7 @@ export default function About(){
               The bootcamp isn't the only experience I carry with me into the development world. 
               My background in music theory gave me the skills to comfortably navigate and build the complex, 
               interconnected logic of the back end. My experience in numerous staged opera productions taught me about
-              visual communication, and has informed my clear and artistic approach to front-end development. 
+              visual communication, and informs my clear, artistic approach to front-end development. 
               And my experiences as a teacher and a freelance writer have made me a strong communicator, 
               someone collaborators can depend on for information and guidance.
             </chakra.p>
