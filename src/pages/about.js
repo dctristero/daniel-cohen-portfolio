@@ -77,7 +77,7 @@ export default function About(){
           pb={{ base: 2, md: 1 }}
           mt="2vw"
           mb="4vw"
-          w={{ base: "70%", sm: "45%", xl: "30%" }}
+          w={{ base: "80%", sm: "60%", lg:"45%", xl: "30%" }}
           mx="auto"
           px={{ base: 2, lg: 0 }}
           justifyContent="center"
@@ -91,7 +91,7 @@ export default function About(){
             fontWeight="bold"
             fontSize={{ base: "4xl", md: "5xl" }}
             // fontSize="6xl"
-            mt={0}
+            mt={1}
           >
             About Me
           </chakra.h1>

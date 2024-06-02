@@ -35,7 +35,7 @@ const SmallProj = () => {
                 fontWeight="bold"
                 fontSize="2xl"
                 href={portfolioCard.URL}
-                _hover={{ color: "primary.400", textDecor: "underline" }}
+                _hover={{ color: "primary.400"}}
               >
                 {portfolioCard.title}
               </Link>
