@@ -79,7 +79,7 @@ export default function Resume() {
           pb={{ base: 2, md: 1 }}
           mt="2vw"
           mb="4vw"
-          w={{ base: "80%", sm: "60%", lg:"45%", xl: "30%" }}
+          w={{ base: "80%", sm: "55%", lg:"35%", xl: "25%" }}
           mx="auto"
           px={{ base: 2, lg: 0 }}
           justifyContent="center"
@@ -120,8 +120,8 @@ export default function Resume() {
               display="block"
               color={["primary.300"]}
               _dark={{ color: "white" }}
-              fontSize="2xl"
-              mt={0}
+              fontSize={{ base: "lg", sm: "xl", md: "2xl" }}
+              mt={2}
             >
               Languages: HTML5, CSS3, JavaScript ES6+, SQL
             </chakra.p>
@@ -129,7 +129,7 @@ export default function Resume() {
               display="block"
               color={["primary.300"]}
               _dark={{ color: "white" }}
-              fontSize="2xl"
+              fontSize={{ base: "lg", sm: "xl", md: "2xl" }}
               mt={10}
             >
               Applications: Git, GitHub, MongoDB, MySQL, Heroku
@@ -138,7 +138,7 @@ export default function Resume() {
               display="block"
               color={["primary.300"]}
               _dark={{ color: "white" }}
-              fontSize="2xl"
+              fontSize={{ base: "lg", sm: "xl", md: "2xl" }}
               mt={10}
             >
               Tools: Express, React, Node, Bootstrap, Bulma, GraphQL, Mongoose,
@@ -148,7 +148,7 @@ export default function Resume() {
               display="block"
               color={["primary.300"]}
               _dark={{ color: "white" }}
-              fontSize="2xl"
+              fontSize={{ base: "lg", sm: "xl", md: "2xl" }}
               mt={10}
             >
               Other: Professional writing and teaching experience
