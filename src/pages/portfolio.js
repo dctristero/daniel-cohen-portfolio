@@ -33,7 +33,7 @@ export default function portfolio() {
           pb={{ base: 2, md: 1 }}
           mt="2vw"
           mb="4vw"
-          w={{ base: "80%", sm: "60%", lg:"45%", xl: "30%" }}
+          w={{ base: "80%", sm: "45%", lg:"25%", xl: "20%" }}
           mx="auto"
           px={{ base: 2, lg: 0 }}
           justifyContent="center"
