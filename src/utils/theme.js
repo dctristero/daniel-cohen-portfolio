@@ -5,7 +5,7 @@ const colors = {
     100: "#d2fded", /* mint */
     200: "#1c5858", /* forest */
     300: "#e4ccf7", /* pale lavender */
-    400: "#c59ae2", /* dark lavender  */
+    400: "#a78fba", /* dark lavender  */
     500: "#61DBFB", /*  */
     600: "#0A864F", /*  */
     700: "#086F42", /*  */

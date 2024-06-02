@@ -26,13 +26,13 @@ export default function portfolio() {
         mx="auto"
       >
         <Box
+          // pos="fixed"
           bg={["primary.200"]}
-          roundedBottom="lg"
-          roundedTop="lg"
+          rounded="lg"
           pt={{ base: 2, md: 0 }}
           pb={{ base: 2, md: 1 }}
-          mt={2}
-          mb={14}
+          mt="2vw"
+          mb="4vw"
           w={{ base: "70%", sm: "45%", xl: "30%" }}
           mx="auto"
           px={{ base: 2, lg: 0 }}
@@ -45,7 +45,7 @@ export default function portfolio() {
             color={["primary.300"]}
             _dark={{ color: "white" }}
             fontWeight="bold"
-            fontSize={{ base: "3xl", md: "5xl" }}
+            fontSize={{ base: "4xl", md: "5xl" }}
             // fontSize="6xl"
             mt={0}
           >

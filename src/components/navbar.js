@@ -64,8 +64,8 @@ const Navbar = () => {
                 color={["primary.300"]}
                 className="navbtn"
                 variant="ghost"
-                _hover={{ color: "primary.400", textDecor: "underline" }}
-                _active={{ color: "primary.400", textDecor: "underline" }}
+                _hover={{ color: "primary.400"}}
+                _active={{ color: "primary.400"}}
               >
                 About
               </Button>
@@ -75,8 +75,8 @@ const Navbar = () => {
                 color={["primary.300"]}
                 className="navbtn"
                 variant="ghost"
-                _hover={{ color: "primary.400", textDecor: "underline" }}
-                _active={{ color: "primary.400", textDecor: "underline" }}
+                _hover={{ color: "primary.400"}}
+                _active={{ color: "primary.400"}}
               >
                 Portfolio
               </Button>
@@ -86,8 +86,8 @@ const Navbar = () => {
                 color={["primary.300"]}
                 className="navbtn"
                 variant="ghost"
-                _hover={{ color: "primary.400", textDecor: "underline" }}
-                _active={{ color: "primary.400", textDecor: "underline" }}
+                _hover={{ color: "primary.400"}}
+                _active={{ color: "primary.400"}}
               >
                 Resume
               </Button>
@@ -97,8 +97,8 @@ const Navbar = () => {
                 color={["primary.300"]}
                 className="navbtn"
                 variant="ghost"
-                _hover={{ color: "primary.400", textDecor: "underline" }}
-                _active={{ color: "primary.400", textDecor: "underline" }}
+                _hover={{ color: "primary.400"}}
+                _active={{ color: "primary.400"}}
               >
                 Contact
               </Button>
@@ -143,7 +143,7 @@ const Navbar = () => {
                   className="navbtn"
                   w="full"
                   variant="ghost"
-                  _hover={{ color: "primary.400", bg:"primary.200", textDecor: "underline" }}
+                  _hover={{ color: "primary.400", bg:"primary.200"}}
                   _active={{ color: "primary.400" }}
                   onClick={mobileNav.onClose}
                 >
@@ -156,7 +156,7 @@ const Navbar = () => {
                   className="navbtn"
                   w="full"
                   variant="ghost"
-                  _hover={{ color: "primary.400", bg:"primary.200", textDecor: "underline" }}
+                  _hover={{ color: "primary.400", bg:"primary.200"}}
                   _active={{ color: "primary.400" }}
                   onClick={mobileNav.onClose}
                 >
@@ -169,7 +169,7 @@ const Navbar = () => {
                   className="navbtn"
                   w="full"
                   variant="ghost"
-                  _hover={{ color: "primary.400", bg:"primary.200", textDecor: "underline" }}
+                  _hover={{ color: "primary.400", bg:"primary.200"}}
                   _active={{ color: "primary.400" }}
                   onClick={mobileNav.onClose}
                 >
@@ -182,7 +182,7 @@ const Navbar = () => {
                   className="navbtn"
                   w="full"
                   variant="ghost"
-                  _hover={{ color: "primary.400", bg:"primary.200", textDecor: "underline" }}
+                  _hover={{ color: "primary.400", bg:"primary.200"}}
                   _active={{ color: "primary.400" }}
                   onClick={mobileNav.onClose}
                 >
