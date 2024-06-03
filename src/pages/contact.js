@@ -109,8 +109,8 @@ const Contact = () => {
             bg={["primary.200"]}
             roundedBottom="lg"
             roundedTop="lg"
-            pt={4}
-            pb={6}
+            pt={6}
+            pb={7}
             mt={8}
             mb={8}
             maxW="90vw"
@@ -126,10 +126,9 @@ const Contact = () => {
             >
                Email:&nbsp;             
                <chakra.a
-                href={resumePDF}
-                download="Daniel-Cohen-Resume"
+                href="mailto:dctristero@gmail.com"
                 target="_blank"
-                rel="noreferrer"
+                // rel="noreferrer"
                 color={["primary.300"]}
                 fontWeight="400"
                 _hover={{ color: "primary.400"}}
@@ -137,14 +136,16 @@ const Contact = () => {
                 dctristero@gmail.com
               </chakra.a>
                <br/>
+               <br/>
                Phone: (512) 644-1087
+               <br/>
                <br/>
                GitHub:&nbsp; 
                <chakra.a
-                href={resumePDF}
+                href="https://github.com/dctristero"
                 download="Daniel-Cohen-Resume"
                 target="_blank"
-                rel="noreferrer"
+                // rel="noreferrer"
                 color={["primary.300"]}
                 fontWeight="400"
                 _hover={{ color: "primary.400"}}

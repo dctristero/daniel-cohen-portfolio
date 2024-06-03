@@ -135,14 +135,56 @@ const Footer = () => {
 
 
 
-        <HStack
-          spacing={0}
-          display={{ base: "none", md: "inline-flex" }}
-        >
-              <Button as="a" href="/tao/" color={["primary.300"]} _hover={{ bg: "primary.500" }} variant="ghost">Home</Button>
-              <Button as="a" href="/tao/about" color={["primary.300"]} _hover={{ bg: "primary.500" }} variant="ghost">About</Button>
-              <Button as="a" href="/tao/contact" color={["primary.300"]} _hover={{ bg: "primary.500" }} variant="ghost">Contact</Button>
-        </HStack>
+<HStack
+              spacing={1}
+              mr={0}
+              display={{ base: "none", md: "inline-flex" }}
+            >
+              <Button
+                as="a"
+                href="/daniel-cohen-portfolio"
+                color={["primary.300"]}
+                className="navbtn"
+                variant="ghost"
+                _hover={{ color: "primary.400"}}
+                _active={{ color: "primary.400"}}
+              >
+                About
+              </Button>
+              <Button
+                as="a"
+                href="/daniel-cohen-portfolio/portfolio"
+                color={["primary.300"]}
+                className="navbtn"
+                variant="ghost"
+                _hover={{ color: "primary.400"}}
+                _active={{ color: "primary.400"}}
+              >
+                Portfolio
+              </Button>
+              <Button
+                as="a"
+                href="/daniel-cohen-portfolio/resume"
+                color={["primary.300"]}
+                className="navbtn"
+                variant="ghost"
+                _hover={{ color: "primary.400"}}
+                _active={{ color: "primary.400"}}
+              >
+                Resume
+              </Button>
+              <Button
+                as="a"
+                href="/daniel-cohen-portfolio/contact"
+                color={["primary.300"]}
+                className="navbtn"
+                variant="ghost"
+                _hover={{ color: "primary.400"}}
+                _active={{ color: "primary.400"}}
+              >
+                Contact
+              </Button>
+            </HStack>
 
       </Flex>
     </chakra.footer>
