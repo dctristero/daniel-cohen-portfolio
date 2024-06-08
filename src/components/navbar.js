@@ -17,13 +17,12 @@ import {
 import { AiOutlineMenu } from "react-icons/ai";
 
 const Navbar = () => {
-  const bg = useColorModeValue("#1c5858", "#1c5858");
   const mobileNav = useDisclosure();
 
   return (
     <React.Fragment>
       <chakra.header
-        bg={bg}
+        bg={["primary.200"]}
         color={["primary.300"]}
         h={{ base: "50px", sm: "60px", xl: "75px" }}
         w="full"
@@ -125,7 +124,7 @@ const Navbar = () => {
                 p={2}
                 pb={4}
                 h="full"
-                bg={bg}
+                bg={["primary.200"]}
                 spacing={3}
                 rounded="sm"
                 shadow="sm"
