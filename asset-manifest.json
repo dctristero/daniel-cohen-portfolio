@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/daniel-cohen-portfolio/static/css/main.197bfa6b.css",
-    "main.js": "/daniel-cohen-portfolio/static/js/main.8ae5e276.js",
+    "main.js": "/daniel-cohen-portfolio/static/js/main.d1185ce1.js",
     "static/media/On-The-Shelf-screenshot.png": "/daniel-cohen-portfolio/static/media/On-The-Shelf-screenshot.5cfba74401513a7233fc.png",
     "static/media/DJ-Limavi-screenshot.png": "/daniel-cohen-portfolio/static/media/DJ-Limavi-screenshot.09899f30b1b69dad43bb.png",
     "static/media/tumblr.png": "/daniel-cohen-portfolio/static/media/tumblr.acf9d115c33939340877.png",
@@ -17,10 +17,10 @@
     "static/media/arimo-greek-ext-wght-normal.woff2": "/daniel-cohen-portfolio/static/media/arimo-greek-ext-wght-normal.7105dcd95608d90e8ca6.woff2",
     "index.html": "/daniel-cohen-portfolio/index.html",
     "main.197bfa6b.css.map": "/daniel-cohen-portfolio/static/css/main.197bfa6b.css.map",
-    "main.8ae5e276.js.map": "/daniel-cohen-portfolio/static/js/main.8ae5e276.js.map"
+    "main.d1185ce1.js.map": "/daniel-cohen-portfolio/static/js/main.d1185ce1.js.map"
   },
   "entrypoints": [
     "static/css/main.197bfa6b.css",
-    "static/js/main.8ae5e276.js"
+    "static/js/main.d1185ce1.js"
   ]
 }
