@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/daniel-cohen-portfolio/static/css/main.d3367de0.css",
-    "main.js": "/daniel-cohen-portfolio/static/js/main.6a0de408.js",
-    "static/media/On-The-Shelf-screenshot.png": "/daniel-cohen-portfolio/static/media/On-The-Shelf-screenshot.5cfba74401513a7233fc.png",
-    "static/media/DJ-Limavi-screenshot.png": "/daniel-cohen-portfolio/static/media/DJ-Limavi-screenshot.09899f30b1b69dad43bb.png",
-    "static/media/tumblr.png": "/daniel-cohen-portfolio/static/media/tumblr.acf9d115c33939340877.png",
-    "static/media/DANNY.jpg": "/daniel-cohen-portfolio/static/media/DANNY.70588fecbd971014c0e3.jpg",
-    "static/media/arimo-latin-ext-wght-normal.woff2": "/daniel-cohen-portfolio/static/media/arimo-latin-ext-wght-normal.70db80435ee42a1f8f10.woff2",
-    "static/media/Daniel-Cohen-Resume.pdf": "/daniel-cohen-portfolio/static/media/Daniel-Cohen-Resume.23f0945c61c08556e57c.pdf",
-    "static/media/arimo-cyrillic-ext-wght-normal.woff2": "/daniel-cohen-portfolio/static/media/arimo-cyrillic-ext-wght-normal.52a786e5916482e9bfab.woff2",
-    "static/media/arimo-latin-wght-normal.woff2": "/daniel-cohen-portfolio/static/media/arimo-latin-wght-normal.35e619ffdf01a10a176f.woff2",
-    "static/media/arimo-greek-wght-normal.woff2": "/daniel-cohen-portfolio/static/media/arimo-greek-wght-normal.98bbdf806d52b18943d0.woff2",
-    "static/media/arimo-cyrillic-wght-normal.woff2": "/daniel-cohen-portfolio/static/media/arimo-cyrillic-wght-normal.d60385d97574ba0a4568.woff2",
-    "static/media/arimo-hebrew-wght-normal.woff2": "/daniel-cohen-portfolio/static/media/arimo-hebrew-wght-normal.0d4611a621aecf1d64e5.woff2",
-    "static/media/arimo-vietnamese-wght-normal.woff2": "/daniel-cohen-portfolio/static/media/arimo-vietnamese-wght-normal.32f2d120c261747d8616.woff2",
-    "static/media/arimo-greek-ext-wght-normal.woff2": "/daniel-cohen-portfolio/static/media/arimo-greek-ext-wght-normal.7105dcd95608d90e8ca6.woff2",
-    "index.html": "/daniel-cohen-portfolio/index.html",
-    "main.d3367de0.css.map": "/daniel-cohen-portfolio/static/css/main.d3367de0.css.map",
-    "main.6a0de408.js.map": "/daniel-cohen-portfolio/static/js/main.6a0de408.js.map"
+    "main.css": "./static/css/main.5509af16.css",
+    "main.js": "./static/js/main.8b86dd3a.js",
+    "static/media/On-The-Shelf-screenshot.png": "./static/media/On-The-Shelf-screenshot.5cfba74401513a7233fc.png",
+    "static/media/DJ-Limavi-screenshot.png": "./static/media/DJ-Limavi-screenshot.09899f30b1b69dad43bb.png",
+    "static/media/tumblr.png": "./static/media/tumblr.acf9d115c33939340877.png",
+    "static/media/DANNY.jpg": "./static/media/DANNY.70588fecbd971014c0e3.jpg",
+    "static/media/arimo-latin-ext-wght-normal.woff2": "./static/media/arimo-latin-ext-wght-normal.70db80435ee42a1f8f10.woff2",
+    "static/media/Daniel-Cohen-Resume.pdf": "./static/media/Daniel-Cohen-Resume.23f0945c61c08556e57c.pdf",
+    "static/media/arimo-cyrillic-ext-wght-normal.woff2": "./static/media/arimo-cyrillic-ext-wght-normal.52a786e5916482e9bfab.woff2",
+    "static/media/arimo-latin-wght-normal.woff2": "./static/media/arimo-latin-wght-normal.35e619ffdf01a10a176f.woff2",
+    "static/media/arimo-greek-wght-normal.woff2": "./static/media/arimo-greek-wght-normal.98bbdf806d52b18943d0.woff2",
+    "static/media/arimo-cyrillic-wght-normal.woff2": "./static/media/arimo-cyrillic-wght-normal.d60385d97574ba0a4568.woff2",
+    "static/media/arimo-hebrew-wght-normal.woff2": "./static/media/arimo-hebrew-wght-normal.0d4611a621aecf1d64e5.woff2",
+    "static/media/arimo-vietnamese-wght-normal.woff2": "./static/media/arimo-vietnamese-wght-normal.32f2d120c261747d8616.woff2",
+    "static/media/arimo-greek-ext-wght-normal.woff2": "./static/media/arimo-greek-ext-wght-normal.7105dcd95608d90e8ca6.woff2",
+    "index.html": "./index.html",
+    "main.5509af16.css.map": "./static/css/main.5509af16.css.map",
+    "main.8b86dd3a.js.map": "./static/js/main.8b86dd3a.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3367de0.css",
-    "static/js/main.6a0de408.js"
+    "static/css/main.5509af16.css",
+    "static/js/main.8b86dd3a.js"
   ]
 }
