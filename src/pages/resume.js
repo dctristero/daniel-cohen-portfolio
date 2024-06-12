@@ -216,3 +216,4 @@ export default function Resume() {
     </Flex>
   );
 }
+

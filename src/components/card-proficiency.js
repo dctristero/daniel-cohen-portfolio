@@ -50,3 +50,4 @@ const Proficiency = () => {
  };
 
  export default Proficiency;
+ 
