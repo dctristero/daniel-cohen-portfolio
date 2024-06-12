@@ -68,17 +68,11 @@ const Navbar = () => {
               >
                 About
               </Button>
-              <Button
-                as="a"
-                href="/daniel-cohen-portfolio/portfolio"
-                color={["primary.300"]}
-                className="navbtn"
-                variant="ghost"
-                _hover={{ color: "primary.400"}}
-                _active={{ color: "primary.400"}}
-              >
-                Portfolio
-              </Button>
+              <Link to="/daniel-cohen-portfolio/portfolio">
+                <Button color={["primary.300"]} className="navbtn" variant="ghost" _hover={{ color: "primary.400" }} _active={{ color: "primary.400" }}>
+                  Portfolio
+                </Button>
+              </Link>
               <Button
                 as="a"
                 href="/daniel-cohen-portfolio/resume"
