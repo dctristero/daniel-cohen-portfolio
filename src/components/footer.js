@@ -190,5 +190,7 @@ const Footer = () => {
     </chakra.footer>
   );
 };
+
 export default Footer;
 
+>>>>>>>>> Temporary merge branch 2
