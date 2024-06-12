@@ -68,3 +68,4 @@ const SmallProj = () => {
 };
 
 export default SmallProj;
+
