@@ -58,44 +58,50 @@ const Navbar = () => {
               mr={1}
               display={{ base: "none", md: "inline-flex" }}
             >
-              <Button
-                as="a"
-                href="/daniel-cohen-portfolio"
-                color={["primary.300"]}
-                className="navbtn"
-                variant="ghost"
-                _hover={{ color: "primary.400"}}
-                _active={{ color: "primary.400"}}
-              >
-                About
-              </Button>
+              <Link to="/daniel-cohen-portfolio">
+                <Button
+                  color={["primary.300"]}
+                  className="navbtn"
+                  variant="ghost"
+                  _hover={{ color: "primary.400" }}
+                  _active={{ color: "primary.400" }}
+                >
+                  About
+                </Button>
+              </Link>
               <Link to="/daniel-cohen-portfolio/portfolio">
-                <Button color={["primary.300"]} className="navbtn" variant="ghost" _hover={{ color: "primary.400" }} _active={{ color: "primary.400" }}>
+                <Button
+                  color={["primary.300"]}
+                  className="navbtn"
+                  variant="ghost"
+                  _hover={{ color: "primary.400" }}
+                  _active={{ color: "primary.400" }}
+                >
                   Portfolio
                 </Button>
               </Link>
-              <Button
-                as="a"
-                href="/daniel-cohen-portfolio/resume"
-                color={["primary.300"]}
-                className="navbtn"
-                variant="ghost"
-                _hover={{ color: "primary.400"}}
-                _active={{ color: "primary.400"}}
-              >
-                Resume
-              </Button>
-              <Button
-                as="a"
-                href="/daniel-cohen-portfolio/contact"
-                color={["primary.300"]}
-                className="navbtn"
-                variant="ghost"
-                _hover={{ color: "primary.400"}}
-                _active={{ color: "primary.400"}}
-              >
-                Contact
-              </Button>
+              <Link to="/daniel-cohen-portfolio/resume">
+                <Button
+                  color={["primary.300"]}
+                  className="navbtn"
+                  variant="ghost"
+                  _hover={{ color: "primary.400" }}
+                  _active={{ color: "primary.400" }}
+                >
+                  Resume
+                </Button>
+              </Link>
+              <Link to="/daniel-cohen-portfolio/contact">
+                <Button
+                  color={["primary.300"]}
+                  className="navbtn"
+                  variant="ghost"
+                  _hover={{ color: "primary.400" }}
+                  _active={{ color: "primary.400" }}
+                >
+                  Contact
+                </Button>
+              </Link>
             </HStack>
             <Box display={{ base: "inline-flex", md: "none" }}>
               <IconButton
@@ -130,58 +136,71 @@ const Navbar = () => {
                   aria-label="Close menu"
                   onClick={mobileNav.onClose}
                 />
-                <Button
+                {/* <Button
                   as="a"
                   href="/daniel-cohen-portfolio"
                   color={["primary.300"]}
                   className="navbtn"
                   w="full"
                   variant="ghost"
-                  _hover={{ color: "primary.400", bg:"primary.200"}}
+                  _hover={{ color: "primary.400", bg: "primary.200" }}
                   _active={{ color: "primary.400" }}
                   onClick={mobileNav.onClose}
                 >
                   About
-                </Button>
-                <Button
-                    as="a"
-                    href="/daniel-cohen-portfolio/portfolio"
-                  color={["primary.300"]}
-                  className="navbtn"
-                  w="full"
-                  variant="ghost"
-                  _hover={{ color: "primary.400", bg:"primary.200"}}
-                  _active={{ color: "primary.400" }}
-                  onClick={mobileNav.onClose}
-                >
-                  Portfolio
-                </Button>
-                <Button
-                  as="a"
-                  href="/daniel-cohen-portfolio/resume"
-                  color={["primary.300"]}
-                  className="navbtn"
-                  w="full"
-                  variant="ghost"
-                  _hover={{ color: "primary.400", bg:"primary.200"}}
-                  _active={{ color: "primary.400" }}
-                  onClick={mobileNav.onClose}
-                >
-                  <Link to="daniel-cohen-portfolio/resume">Resume</Link>
-                </Button>
-                <Button
-                  as="a"
-                  href="/daniel-cohen-portfolio/contact"
-                  color={["primary.300"]}
-                  className="navbtn"
-                  w="full"
-                  variant="ghost"
-                  _hover={{ color: "primary.400", bg:"primary.200"}}
-                  _active={{ color: "primary.400" }}
-                  onClick={mobileNav.onClose}
-                >
-                  Contact
-                </Button>
+  </Button> */}
+                <Link to="/daniel-cohen-portfolio">
+                  <Button
+                    color={["primary.300"]}
+                    className="navbtn"
+                    w="full"
+                    variant="ghost"
+                    _hover={{ color: "primary.400", bg: "primary.200" }}
+                    _active={{ color: "primary.400" }}
+                    onClick={mobileNav.onClose}
+                  >
+                    About
+                  </Button>
+                </Link>
+                <Link to="/daniel-cohen-portfolio/portfolio">
+                  <Button
+                    color={["primary.300"]}
+                    className="navbtn"
+                    w="full"
+                    variant="ghost"
+                    _hover={{ color: "primary.400", bg: "primary.200" }}
+                    _active={{ color: "primary.400" }}
+                    onClick={mobileNav.onClose}
+                  >
+                    Portfolio
+                  </Button>
+                </Link>
+                <Link to="/daniel-cohen-portfolio/resume">
+                  <Button
+                    color={["primary.300"]}
+                    className="navbtn"
+                    w="full"
+                    variant="ghost"
+                    _hover={{ color: "primary.400", bg: "primary.200" }}
+                    _active={{ color: "primary.400" }}
+                    onClick={mobileNav.onClose}
+                  >
+                    Resume
+                  </Button>
+                </Link>
+                <Link to="/daniel-cohen-portfolio/contact">
+                  <Button
+                    color={["primary.300"]}
+                    className="navbtn"
+                    w="full"
+                    variant="ghost"
+                    _hover={{ color: "primary.400", bg: "primary.200" }}
+                    _active={{ color: "primary.400" }}
+                    onClick={mobileNav.onClose}
+                  >
+                    Contact
+                  </Button>
+                </Link>
               </VStack>
             </Box>
           </HStack>
@@ -191,4 +210,3 @@ const Navbar = () => {
   );
 };
 export default Navbar;
-
