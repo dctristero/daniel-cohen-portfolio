@@ -190,4 +190,5 @@ const Footer = () => {
     </chakra.footer>
   );
 };
+
 export default Footer;

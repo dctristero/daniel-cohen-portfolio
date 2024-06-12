@@ -23,3 +23,4 @@ const fonts = {
 const customTheme = extendTheme({ colors, fonts });
 
 export default customTheme;
+
