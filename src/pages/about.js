@@ -156,7 +156,13 @@ export default function About(){
               fontSize="xl"
               mt={0}
             >
-               I am a motivated, hard-working Full Stack Web Developer with a penchant for creative problem solving. My proficiencies include React, CSS, HTML, Javascript, Express, MongoDb, and MySQL. At the UT Coding Bootcamp, my close-knit team developed tools for users to discover new media, catalogue their personal collections, and connect with strangers who share niche interests.
+               I am a motivated, hard-working Full Stack Web Developer with a 
+               penchant for creative problem solving. My proficiencies 
+               include React, CSS, HTML, Javascript, Express, MongoDb, 
+               and MySQL. At the UT Coding Bootcamp, my close-knit team 
+               developed tools for users to discover new media, catalogue 
+               their personal collections, and connect with strangers who 
+               share niche interests.
             </chakra.p>
             <chakra.p
               display="block"
