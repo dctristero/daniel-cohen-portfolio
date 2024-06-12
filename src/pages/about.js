@@ -156,16 +156,7 @@ export default function About(){
               fontSize="xl"
               mt={0}
             >
-               DANNY DANNY DANNY
-            </chakra.p>
-            <chakra.p
-              display="block"
-              color={["primary.300"]}
-              _dark={{ color: "white" }}
-              fontSize="3xl"
-              mt={10}
-            >
-              DANNY DANNY
+               I am a motivated, hard-working Full Stack Web Developer with a penchant for creative problem solving. My proficiencies include React, CSS, HTML, Javascript, Express, MongoDb, and MySQL. At the UT Coding Bootcamp, my close-knit team developed tools for users to discover new media, catalogue their personal collections, and connect with strangers who share niche interests.
             </chakra.p>
             <chakra.p
               display="block"
@@ -180,7 +171,6 @@ export default function About(){
               visual communication, and informs my clear, artistic approach to front-end development. 
               And my experiences as a teacher and a freelance writer have made me a strong communicator, 
               someone collaborators can depend on for information and guidance.
-              DANNY DANNY DANNY DANNY
             </chakra.p>
             <chakra.p
               display="block"
@@ -189,7 +179,7 @@ export default function About(){
               fontSize="xl"
               mt={6}
             >
-              DANNY
+              I am eager to find a team that can utilize my skills, and to embark on an exciting new chapter in my professional life.
             </chakra.p>
           </Box>
           </GridItem>
