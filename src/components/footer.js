@@ -192,5 +192,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
->>>>>>>>> Temporary merge branch 2
