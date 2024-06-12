@@ -17,12 +17,13 @@ import {
 import { AiOutlineMenu } from "react-icons/ai";
 
 const Navbar = () => {
+  const bg = useColorModeValue("#1c5858", "#1c5858");
   const mobileNav = useDisclosure();
 
   return (
     <React.Fragment>
       <chakra.header
-        bg={["primary.200"]}
+        bg={bg}
         color={["primary.300"]}
         h={{ base: "50px", sm: "60px", xl: "75px" }}
         w="full"
@@ -68,17 +69,11 @@ const Navbar = () => {
               >
                 About
               </Button>
-              <Button
-                as="a"
-                href="/daniel-cohen-portfolio/portfolio"
-                color={["primary.300"]}
-                className="navbtn"
-                variant="ghost"
-                _hover={{ color: "primary.400"}}
-                _active={{ color: "primary.400"}}
-              >
-                Portfolio
-              </Button>
+              <Link to="/daniel-cohen-portfolio/portfolio">
+                <Button color={["primary.300"]} className="navbtn" variant="ghost" _hover={{ color: "primary.400" }} _active={{ color: "primary.400" }}>
+                  Portfolio
+                </Button>
+              </Link>
               <Button
                 as="a"
                 href="/daniel-cohen-portfolio/resume"
@@ -124,7 +119,7 @@ const Navbar = () => {
                 p={2}
                 pb={4}
                 h="full"
-                bg={["primary.200"]}
+                bg={bg}
                 spacing={3}
                 rounded="sm"
                 shadow="sm"
