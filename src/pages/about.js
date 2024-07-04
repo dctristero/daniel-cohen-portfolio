@@ -96,8 +96,6 @@ export default function About(){
             About Me
           </chakra.h1>
         </Box>
-
-        {/* look at chakra ui grid examples to make better */}
         
         <SimpleGrid
           // alignItems="center"
@@ -160,9 +158,9 @@ export default function About(){
                penchant for creative problem solving. My proficiencies 
                include React, CSS, HTML, Javascript, Express, MongoDb, 
                and MySQL. At the UT Coding Bootcamp, my close-knit team 
-               developed tools for users to discover new media, catalogue 
-               their personal collections, and connect with strangers who 
-               share niche interests.
+               developed tools for users to discover new media and catalogue 
+               their personal collections. As a solo developer, I have developed a resource
+               for users to learn about language and spirituality.
             </chakra.p>
             <chakra.p
               display="block"
