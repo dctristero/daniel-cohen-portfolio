@@ -1,12 +1,13 @@
 // image imports go here
 
-import dj from "../images/DJ-Limavi-screenshot.png"
-import ots from "../images/On-The-Shelf-screenshot.png"
+import dj from "../images/thumb-daja.jpg"
+import ots from "../images/thumb-ontheshelf.jpg"
 import placeholder from "../images/tumblr.png"
 import dc from "../images/DANNY.jpg"
+import tao from "../images/thumb-tao2.jpg"
 
 export const bigProjCard = {
-   image: dj
+   image: tao
 }
 
 export const aboutPic = {
@@ -16,35 +17,19 @@ export const aboutPic = {
 export const portfolioCards = [
    {
       id: 1,
-      title: "On the Shelf",
-      description: "A tool for users to catalogue their board game collections",
-      image: ots,
-      URL: "https://ontheshelf.herokuapp.com/",
+      title: "DJ Limavi",
+      description: "A webapp for finding music",
+      image: dj,
+      URL: "https://matthewmontiel.github.io/daja-limavi/",
       alt: "a screenshot of On the Shelf",
    },
    {
       id: 2,
-      title: "Daja 3",
-      description: "TBD",
-      image: placeholder,
-      URL: "http://www.google.com",
-      alt: "a screenshot of Daja 3",
-   }, 
-   {
-      id: 3,
-      title: "Avatar Generator",
-      description: "A tool for users to generate cartoon avatars",
-      image: placeholder,
-      URL: "http://www.google.com",
-      alt: "a screenshot of Avatar Generator",
-   },
-   {
-      id: 4,
-      title: "Feet: The Blog",
-      description: "A blog about our feet",
-      image: placeholder,
-      URL: "http://www.google.com",
-      alt: "a screenshot of Feet: The Blog",
+      title: "On the Shelf",
+      description: "A webapp for cataloging board games",
+      image: ots,
+      URL: "https://ontheshelf-b06e928cc0f2.herokuapp.com",
+      alt: "a screenshot of On the Shelf",
    }
 ]
 

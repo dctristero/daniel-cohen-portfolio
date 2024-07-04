@@ -21,7 +21,7 @@ const BigProj = () => {
 
         maxW="4xl"
       >
-         <Link href="https://matthewmontiel.github.io/daja-limavi/">
+         <Link href="https://dctristero.github.io/tao/">
             <Image
             h="full"
             w="full"
@@ -43,11 +43,11 @@ const BigProj = () => {
               _dark={{ color: "white" }}
               fontWeight="bold"
               fontSize="2xl"
-              href="https://matthewmontiel.github.io/daja-limavi/"
+              href="https://dctristero.github.io/tao/"
               mt={0}
               _hover={{ color: "primary.400" }}
             >
-              DJ Limavi
+              The Public Tao Te Ching
             </Link>
             <chakra.p
               mt={2}
@@ -55,7 +55,7 @@ const BigProj = () => {
               color={["primary.300"]}
               _dark={{ color: "gray.400" }}
             >
-              A webapp to help users find music at the intersections of their favorite genres.
+              A webapp for learning about the language of the <em>Tao Te Ching</em>
             </chakra.p>
           </Box>
 
