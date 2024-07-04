@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/daniel-cohen-portfolio/static/css/main.d3367de0.css",
-    "main.js": "/daniel-cohen-portfolio/static/js/main.f8aa4594.js",
-    "static/media/On-The-Shelf-screenshot.png": "/daniel-cohen-portfolio/static/media/On-The-Shelf-screenshot.5cfba74401513a7233fc.png",
-    "static/media/DJ-Limavi-screenshot.png": "/daniel-cohen-portfolio/static/media/DJ-Limavi-screenshot.09899f30b1b69dad43bb.png",
+    "main.js": "/daniel-cohen-portfolio/static/js/main.b26661d7.js",
     "static/media/tumblr.png": "/daniel-cohen-portfolio/static/media/tumblr.acf9d115c33939340877.png",
     "static/media/DANNY.jpg": "/daniel-cohen-portfolio/static/media/DANNY.70588fecbd971014c0e3.jpg",
+    "static/media/thumb-daja.jpg": "/daniel-cohen-portfolio/static/media/thumb-daja.4b2c8ef1970385f5d9bb.jpg",
+    "static/media/thumb-ontheshelf.jpg": "/daniel-cohen-portfolio/static/media/thumb-ontheshelf.21ba78cff01d6c740287.jpg",
+    "static/media/thumb-tao2.jpg": "/daniel-cohen-portfolio/static/media/thumb-tao2.68690f72d10e68b76327.jpg",
     "static/media/arimo-latin-ext-wght-normal.woff2": "/daniel-cohen-portfolio/static/media/arimo-latin-ext-wght-normal.70db80435ee42a1f8f10.woff2",
-    "static/media/Daniel-Cohen-Resume.pdf": "/daniel-cohen-portfolio/static/media/Daniel-Cohen-Resume.23f0945c61c08556e57c.pdf",
+    "static/media/Daniel-Cohen-resume-2024.pdf": "/daniel-cohen-portfolio/static/media/Daniel-Cohen-resume-2024.f2545cdd81ad9e30b6a6.pdf",
     "static/media/arimo-cyrillic-ext-wght-normal.woff2": "/daniel-cohen-portfolio/static/media/arimo-cyrillic-ext-wght-normal.52a786e5916482e9bfab.woff2",
     "static/media/arimo-latin-wght-normal.woff2": "/daniel-cohen-portfolio/static/media/arimo-latin-wght-normal.35e619ffdf01a10a176f.woff2",
     "static/media/arimo-greek-wght-normal.woff2": "/daniel-cohen-portfolio/static/media/arimo-greek-wght-normal.98bbdf806d52b18943d0.woff2",
@@ -17,10 +18,10 @@
     "static/media/arimo-greek-ext-wght-normal.woff2": "/daniel-cohen-portfolio/static/media/arimo-greek-ext-wght-normal.7105dcd95608d90e8ca6.woff2",
     "index.html": "/daniel-cohen-portfolio/index.html",
     "main.d3367de0.css.map": "/daniel-cohen-portfolio/static/css/main.d3367de0.css.map",
-    "main.f8aa4594.js.map": "/daniel-cohen-portfolio/static/js/main.f8aa4594.js.map"
+    "main.b26661d7.js.map": "/daniel-cohen-portfolio/static/js/main.b26661d7.js.map"
   },
   "entrypoints": [
     "static/css/main.d3367de0.css",
-    "static/js/main.f8aa4594.js"
+    "static/js/main.b26661d7.js"
   ]
 }
