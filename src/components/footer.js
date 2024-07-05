@@ -105,7 +105,8 @@
 // export default Footer;
 
 import React from "react";
-import { chakra, Flex, HStack, Button, Link } from "@chakra-ui/react";
+import { chakra, Flex, HStack, Button } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -140,50 +141,50 @@ const Footer = () => {
               mr={0}
               display={{ base: "none", md: "inline-flex" }}
             >
-              <Button
-                as="a"
-                href="/daniel-cohen-portfolio"
-                color={["primary.300"]}
-                className="navbtn"
-                variant="ghost"
-                _hover={{ color: "primary.400"}}
-                _active={{ color: "primary.400"}}
-              >
-                About
-              </Button>
-              <Button
-                as="a"
-                href="/daniel-cohen-portfolio/portfolio"
-                color={["primary.300"]}
-                className="navbtn"
-                variant="ghost"
-                _hover={{ color: "primary.400"}}
-                _active={{ color: "primary.400"}}
-              >
-                Portfolio
-              </Button>
-              <Button
-                as="a"
-                href="/daniel-cohen-portfolio/resume"
-                color={["primary.300"]}
-                className="navbtn"
-                variant="ghost"
-                _hover={{ color: "primary.400"}}
-                _active={{ color: "primary.400"}}
-              >
-                Resume
-              </Button>
-              <Button
-                as="a"
-                href="/daniel-cohen-portfolio/contact"
-                color={["primary.300"]}
-                className="navbtn"
-                variant="ghost"
-                _hover={{ color: "primary.400"}}
-                _active={{ color: "primary.400"}}
-              >
-                Contact
-              </Button>
+              <Link to="/daniel-cohen-portfolio">
+                <Button
+                  color={["primary.300"]}
+                  className="navbtn"
+                  variant="ghost"
+                  _hover={{ color: "primary.400" }}
+                  _active={{ color: "primary.400" }}
+                >
+                  About
+                </Button>
+              </Link>
+              <Link to="/daniel-cohen-portfolio/portfolio">
+                <Button
+                  color={["primary.300"]}
+                  className="navbtn"
+                  variant="ghost"
+                  _hover={{ color: "primary.400" }}
+                  _active={{ color: "primary.400" }}
+                >
+                  Portfolio
+                </Button>
+              </Link>
+              <Link to="/daniel-cohen-portfolio/resume">
+                <Button
+                  color={["primary.300"]}
+                  className="navbtn"
+                  variant="ghost"
+                  _hover={{ color: "primary.400" }}
+                  _active={{ color: "primary.400" }}
+                >
+                  Resume
+                </Button>
+              </Link>
+              <Link to="/daniel-cohen-portfolio/contact">
+                <Button
+                  color={["primary.300"]}
+                  className="navbtn"
+                  variant="ghost"
+                  _hover={{ color: "primary.400" }}
+                  _active={{ color: "primary.400" }}
+                >
+                  Contact
+                </Button>
+              </Link>
             </HStack>
 
       </Flex>
