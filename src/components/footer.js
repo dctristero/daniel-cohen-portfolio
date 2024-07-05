@@ -141,7 +141,7 @@ const Footer = () => {
               mr={0}
               display={{ base: "none", md: "inline-flex" }}
             >
-              <Link to="/daniel-cohen-portfolio">
+              <Link to="/">
                 <Button
                   color={["primary.300"]}
                   className="navbtn"
@@ -152,7 +152,7 @@ const Footer = () => {
                   About
                 </Button>
               </Link>
-              <Link to="/daniel-cohen-portfolio/portfolio">
+              <Link to="/portfolio">
                 <Button
                   color={["primary.300"]}
                   className="navbtn"
@@ -163,7 +163,7 @@ const Footer = () => {
                   Portfolio
                 </Button>
               </Link>
-              <Link to="/daniel-cohen-portfolio/resume">
+              <Link to="/resume">
                 <Button
                   color={["primary.300"]}
                   className="navbtn"
@@ -174,7 +174,7 @@ const Footer = () => {
                   Resume
                 </Button>
               </Link>
-              <Link to="/daniel-cohen-portfolio/contact">
+              <Link to="/contact">
                 <Button
                   color={["primary.300"]}
                   className="navbtn"

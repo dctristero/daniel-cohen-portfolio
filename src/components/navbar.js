@@ -58,7 +58,7 @@ const Navbar = () => {
               mr={1}
               display={{ base: "none", md: "inline-flex" }}
             >
-              <Link to="/daniel-cohen-portfolio">
+              <Link to="/">
                 <Button
                   color={["primary.300"]}
                   className="navbtn"
@@ -69,7 +69,7 @@ const Navbar = () => {
                   About
                 </Button>
               </Link>
-              <Link to="/daniel-cohen-portfolio/portfolio">
+              <Link to="/portfolio">
                 <Button
                   color={["primary.300"]}
                   className="navbtn"
@@ -80,7 +80,7 @@ const Navbar = () => {
                   Portfolio
                 </Button>
               </Link>
-              <Link to="/daniel-cohen-portfolio/resume">
+              <Link to="/resume">
                 <Button
                   color={["primary.300"]}
                   className="navbtn"
@@ -91,7 +91,7 @@ const Navbar = () => {
                   Resume
                 </Button>
               </Link>
-              <Link to="/daniel-cohen-portfolio/contact">
+              <Link to="/contact">
                 <Button
                   color={["primary.300"]}
                   className="navbtn"
@@ -149,7 +149,7 @@ const Navbar = () => {
                 >
                   About
   </Button> */}
-                <Link to="/daniel-cohen-portfolio">
+                <Link to="/">
                   <Button
                     color={["primary.300"]}
                     className="navbtn"
@@ -162,7 +162,7 @@ const Navbar = () => {
                     About
                   </Button>
                 </Link>
-                <Link to="/daniel-cohen-portfolio/portfolio">
+                <Link to="/portfolio">
                   <Button
                     color={["primary.300"]}
                     className="navbtn"
@@ -175,7 +175,7 @@ const Navbar = () => {
                     Portfolio
                   </Button>
                 </Link>
-                <Link to="/daniel-cohen-portfolio/resume">
+                <Link to="/resume">
                   <Button
                     color={["primary.300"]}
                     className="navbtn"
@@ -188,7 +188,7 @@ const Navbar = () => {
                     Resume
                   </Button>
                 </Link>
-                <Link to="/daniel-cohen-portfolio/contact">
+                <Link to="/contact">
                   <Button
                     color={["primary.300"]}
                     className="navbtn"
