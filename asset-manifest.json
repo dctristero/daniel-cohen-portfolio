@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/daniel-cohen-portfolio/static/css/main.d3367de0.css",
-    "main.js": "/daniel-cohen-portfolio/static/js/main.b26661d7.js",
+    "main.js": "/daniel-cohen-portfolio/static/js/main.b4255e29.js",
     "static/media/tumblr.png": "/daniel-cohen-portfolio/static/media/tumblr.acf9d115c33939340877.png",
     "static/media/DANNY.jpg": "/daniel-cohen-portfolio/static/media/DANNY.70588fecbd971014c0e3.jpg",
     "static/media/thumb-daja.jpg": "/daniel-cohen-portfolio/static/media/thumb-daja.4b2c8ef1970385f5d9bb.jpg",
@@ -18,10 +18,10 @@
     "static/media/arimo-greek-ext-wght-normal.woff2": "/daniel-cohen-portfolio/static/media/arimo-greek-ext-wght-normal.7105dcd95608d90e8ca6.woff2",
     "index.html": "/daniel-cohen-portfolio/index.html",
     "main.d3367de0.css.map": "/daniel-cohen-portfolio/static/css/main.d3367de0.css.map",
-    "main.b26661d7.js.map": "/daniel-cohen-portfolio/static/js/main.b26661d7.js.map"
+    "main.b4255e29.js.map": "/daniel-cohen-portfolio/static/js/main.b4255e29.js.map"
   },
   "entrypoints": [
     "static/css/main.d3367de0.css",
-    "static/js/main.b26661d7.js"
+    "static/js/main.b4255e29.js"
   ]
 }
