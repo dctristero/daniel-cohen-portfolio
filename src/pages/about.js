@@ -154,7 +154,7 @@ export default function About(){
               fontSize="xl"
               mt={0}
             >
-               I am a motivated, hard-working Full Stack Web Developer with a 
+               I am a motivated, hard-working full stack web developer with a 
                penchant for creative problem solving. My proficiencies 
                include React, CSS, HTML, Javascript, Express, MongoDb, 
                and MySQL. At the UT Coding Bootcamp, my close-knit team 
