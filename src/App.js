@@ -3,22 +3,22 @@ import Contact from "./pages/contact";
 import About from "./pages/about";
 import Resume from "./pages/resume";
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Navbar from "./components/navbar.js";
 
 // look at rachelreact for darkmode reference
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <Routes>
-        <Route path="/daniel-cohen-portfolio/" element={<About />} />
-        <Route path="/daniel-cohen-portfolio/portfolio" element={<Portfolio />} />
-        <Route path="/daniel-cohen-portfolio/contact" element={<Contact />} />
-        <Route path="/daniel-cohen-portfolio/resume" element={<Resume />} />
+        <Route path="/" element={<About />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/resume" element={<Resume />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
