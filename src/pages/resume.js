@@ -63,7 +63,7 @@ export default function Resume() {
             roundedTop="lg"
             pt={4}
             pb={6}
-            mt={8}
+            mt={4}
             mb={8}
             maxW="m"
             mx="auto"
@@ -111,7 +111,7 @@ export default function Resume() {
         
         <Button
           as="a"
-          mt="3vw"
+          mb="1vw"
           href={resumePDF}
           download="Daniel-Cohen-Resume"
           target="_blank"
