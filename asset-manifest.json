@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/daniel-cohen-portfolio/static/css/main.d3367de0.css",
-    "main.js": "/daniel-cohen-portfolio/static/js/main.149a962b.js",
+    "main.js": "/daniel-cohen-portfolio/static/js/main.d4942abc.js",
     "static/media/tumblr.png": "/daniel-cohen-portfolio/static/media/tumblr.acf9d115c33939340877.png",
-    "static/media/DANNY.jpg": "/daniel-cohen-portfolio/static/media/DANNY.70588fecbd971014c0e3.jpg",
-    "static/media/thumb-daja.jpg": "/daniel-cohen-portfolio/static/media/thumb-daja.4b2c8ef1970385f5d9bb.jpg",
-    "static/media/thumb-ontheshelf.jpg": "/daniel-cohen-portfolio/static/media/thumb-ontheshelf.21ba78cff01d6c740287.jpg",
-    "static/media/thumb-tao2.jpg": "/daniel-cohen-portfolio/static/media/thumb-tao2.68690f72d10e68b76327.jpg",
+    "static/media/DANNY.jpg": "/daniel-cohen-portfolio/static/media/DANNY.fc0b40fdae0b9c8673f1.jpg",
+    "static/media/thumb-daja.jpg": "/daniel-cohen-portfolio/static/media/thumb-daja.390b64df031d7657b96b.jpg",
+    "static/media/thumb-ontheshelf.jpg": "/daniel-cohen-portfolio/static/media/thumb-ontheshelf.1379dd5c26647f05d805.jpg",
+    "static/media/Daniel-Cohen-resume-2025.pdf": "/daniel-cohen-portfolio/static/media/Daniel-Cohen-resume-2025.f1f0c1cf0bba58f4541b.pdf",
     "static/media/arimo-latin-ext-wght-normal.woff2": "/daniel-cohen-portfolio/static/media/arimo-latin-ext-wght-normal.70db80435ee42a1f8f10.woff2",
-    "static/media/Daniel-Cohen-resume-2024.pdf": "/daniel-cohen-portfolio/static/media/Daniel-Cohen-resume-2024.f2545cdd81ad9e30b6a6.pdf",
+    "static/media/thumb-ros.jpg": "/daniel-cohen-portfolio/static/media/thumb-ros.71a7642da558d12eda4c.jpg",
+    "static/media/thumb-tao2.jpg": "/daniel-cohen-portfolio/static/media/thumb-tao2.d4a8809d7935c80dde8d.jpg",
     "static/media/arimo-cyrillic-ext-wght-normal.woff2": "/daniel-cohen-portfolio/static/media/arimo-cyrillic-ext-wght-normal.52a786e5916482e9bfab.woff2",
     "static/media/arimo-latin-wght-normal.woff2": "/daniel-cohen-portfolio/static/media/arimo-latin-wght-normal.35e619ffdf01a10a176f.woff2",
     "static/media/arimo-greek-wght-normal.woff2": "/daniel-cohen-portfolio/static/media/arimo-greek-wght-normal.98bbdf806d52b18943d0.woff2",
@@ -18,10 +19,10 @@
     "static/media/arimo-greek-ext-wght-normal.woff2": "/daniel-cohen-portfolio/static/media/arimo-greek-ext-wght-normal.7105dcd95608d90e8ca6.woff2",
     "index.html": "/daniel-cohen-portfolio/index.html",
     "main.d3367de0.css.map": "/daniel-cohen-portfolio/static/css/main.d3367de0.css.map",
-    "main.149a962b.js.map": "/daniel-cohen-portfolio/static/js/main.149a962b.js.map"
+    "main.d4942abc.js.map": "/daniel-cohen-portfolio/static/js/main.d4942abc.js.map"
   },
   "entrypoints": [
     "static/css/main.d3367de0.css",
-    "static/js/main.149a962b.js"
+    "static/js/main.d4942abc.js"
   ]
 }
