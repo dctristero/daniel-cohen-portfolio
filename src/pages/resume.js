@@ -1,6 +1,6 @@
 import React from "react";
 import { chakra, Box, Flex, Icon, Stack, Button } from "@chakra-ui/react";
-import resumePDF from "../assets/Daniel-Cohen-resume-2024.pdf";
+import resumePDF from "../assets/Daniel-Cohen-resume-2025.pdf";
 import Footer from "../components/footer";
 
 export default function Resume() {
@@ -104,7 +104,7 @@ export default function Resume() {
               fontSize={{ base: "lg", sm: "xl", md: "2xl" }}
               mt={10}
             >
-              Other: Professional writing and teaching experience
+              Other: Professional experience with Wordpress, teaching, and writing
             </chakra.p>
           </Box>
         </Box>
